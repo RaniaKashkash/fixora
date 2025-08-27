@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="./images/logo.png" />
+    <meta
+      name="description"
+      content="Fixora project that contain html,css,and java script"
+    />
+    <meta name="keywords" content="HTML, CSS, example" />
+    <meta name="author" content="Natalia" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Galada&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    
+
+    <title>Fixora</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="py-3">
+    <!-- First section (home section) -->
+    <div class="home-section">
+      <div class="container">
+        <!-- Navbar -->
+        <div class="navbar">
+          <div class="navbar-logo">
+            <img src="./images/logo.png" alt="logo image" />
+          </div>
+          <div class="navbar-links">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Service</a></li>
+              <li>
+                <div class="navbar-buttons">
+                  <button class="login-btn">Login</button>
+                  <button class="signup-btn">Sign Up</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="home-content">
+          <!-- Left side -->
+          <div class="left-home-section">
+            <!-- Description -->
+            <div class="description">
+              <h1>
+                Professional
+                <span class="service-title fade-element">cleaning</span>
+                Service
+              </h1>
+              <p class="service-description fade-element">
+                Professional cleaning services for a spotless<br />
+                and healthy home – from everyday tidying to<br />
+                deep cleaning kitchen & bathroom sanitizing,<br />
+                and upholstery care
+              </p>
+              <button class="book-btn">Book now</button>
+            </div>
+
+            <!-- Clients -->
+            <div class="clients">
+              <div class="clients-photos">
+                <img src="./images/client1.jpg" alt="" />
+                <img src="./images/client2.jpg" alt="" />
+                <img src="./images/client3.jpg" alt="" />
+                <span class="moreClients">+100</span>
+              </div>
+              <div class="clients-text">
+                <p>Our Vip Clients</p>
+              </div>
+            </div>
+
+            <!-- Statistics -->
+            <div class="statistics">
+              <div class="statistic-item">
+                <h2>
+                  150%
+                  <span>150</span>
+                </h2>
+                <p>Team Members By Our <br />Service</p>
+              </div>
+              <div class="statistic-item">
+                <h2>
+                  2,300
+                  <span>2,300</span>
+                </h2>
+                <p>Project Completed By Our <br />Service</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right side -->
+          <div class="right-home-section">
+            <img src="./images/circle-removebg-preview.png" alt="circle" class="main-circle">
+            <div class="icons-wrapper">
+              <img src="./images/home-icon1.png" alt="home-icon1" class="home-icon home-icon-top fade-element">
+              <img src="./images/home-icon2.png" alt="home-icon2" class="home-icon home-icon-right fade-element">
+              <img src="./images/home-icon3.png" alt="home-icon3" class="home-icon home-icon-left fade-element">
+            </div>
+            <div class="home-image-wrapper">
+              <img src="./images/home-image1.png" alt="" class="home-image" onclick="changeImage()">
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Second section  (Professional plumbing)-->
+    <section class="plumbing-section">
+      <div class="container">
+        <div class="header">
+          <h2>Professional Plumbing</h2>
+          <span>What’s Included</span>
+        </div>
+        <div class="services">
+          <div class="service-item">
+            <div class="image">
+              <img src="./images/Professional1.jpg" alt="Plumbing Service" />
+            </div>
+            <div class="service-details">
+              <h3>Leak Detection & Repair</h3>
+
+              <div class="service-data">
+                <div class="service-description">
+                  <p>
+                    Quick identification and repair of water leaks to prevent
+                    damage and save water
+                  </p>
+                </div>
+
+                <div class="price">
+                  <span>$20</span>
+                </div>
+              </div>
+            </div>
+            <div class="btn-wrapper">
+              <button class="book-btn">Book Now</button>
+              <div class="book-btn-bg"></div>
+            </div>
+          </div>
+
+          <div class="service-item middle-service">
+            <div class="image">
+              <img src="./images/Professional2.png" alt="Plumbing Service" />
+            </div>
+            <div class="service-details">
+              <h3>Faucet & Water Heater Services</h3>
+              <div class="service-data">
+                <div class="service-description">
+                  <p>
+                    Expert installation and regular maintenance for faucets and
+                    water heaters to smooth
+                  </p>
+                </div>
+
+                <div class="price">
+                  <span>$20</span>
+                  <img
+                    src="./images/Checked.png"
+                    alt="checked"
+                    class="checked"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="btn-wrapper">
+              <button class="middle-book-btn book-btn">
+                Booking Confirmed
+              </button>
+              <div class="book-btn-bg"></div>
+            </div>
+          </div>
+
+          <div class="service-item">
+            <div class="image">
+              <img src="./images/Professional3.jpg" alt="Plumbing Service" />
+            </div>
+            <div class="service-details">
+              <h3>Drain & Plumbing Maintenance</h3>
+              <div class="service-data">
+                <div class="service-description">
+                  <p>
+                    Fast clog removal complete plumbing care for kitchens
+                    &bathrooms smoothly.
+                  </p>
+                </div>
+
+                <div class="price">
+                  <span>$20</span>
+                </div>
+              </div>
+            </div>
+            <div class="btn-wrapper">
+              <button class="book-btn">Book Now</button>
+              <div class="book-btn-bg"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Third section  (Professional Cleaning)-->
+    <section class="cleaning-section">
+      <div class="container">
+        <div class="header">
+          <h2>Professional Cleaning</h2>
+          <span>What’s Included</span>
+        </div>
+        <div class="services">
+          <div class="service-item">
+            <div class="image">
+              <img src="./images/Professional1.jpg" alt="Cleaning service " />
+            </div>
+            <div class="service-details">
+              <h3>Home & Deep Cleaning</h3>
+
+              <div class="service-data">
+                <div class="service-description">
+                  <p>
+                    Clean your whole home – choose regular cleaning for everyday
+                    tidiness or deep cleaning for every corner
+                  </p>
+                </div>
+
+                <div class="price">
+                  <span>$100</span>
+                </div>
+              </div>
+            </div>
+            <div class="btn-wrapper">
+              <button class="book-btn">Book Now</button>
+              <div class="book-btn-bg"></div>
+            </div>
+          </div>
+
+          <div class="service-item middle-service middle-clean-service">
+            <div class="image">
+              <img src="./images/Professional5.jpg" alt="Cleaning service  " />
+            </div>
+            <div class="service-details">
+              <h3>Kitchen & Bathroom Sanitizing</h3>
+              <div class="service-data">
+                <div class="service-description">
+                  <p>
+                    Keep your kitchen and bathroom sparkling and hygienic –
+                    remove grease, dirt, and germs.
+                  </p>
+                </div>
+
+                <div class="price">
+                  <span>$20</span>
+                  <img
+                    src="./images/Checked.png"
+                    alt="checked"
+                    class="checked"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="btn-wrapper">
+              <button class="middle-book-btn book-btn">
+                Booking Confirmed
+              </button>
+              <div class="book-btn-bg"></div>
+            </div>
+          </div>
+
+          <div class="service-item">
+            <div class="image">
+              <img src="./images/Professional4.jpg" alt="Cleaning service " />
+            </div>
+            <div class="service-details">
+              <h3>Upholstery & Carpet Care</h3>
+              <div class="service-data">
+                <div class="service-description">
+                  <p>
+                    Refresh sofas, mattresses, chairs, and carpets – remove
+                    stains, odors, and dust for a healthier home.
+                  </p>
+                </div>
+
+                <div class="price">
+                  <span>$70</span>
+                </div>
+              </div>
+            </div>
+            <div class="btn-wrapper">
+              <button class="book-btn">Book Now</button>
+              <div class="book-btn-bg"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Forth section  (Professional Electrical)-->
+    <section class="cleaning-section">
+      <div class="container">
+        <div class="header">
+          <h2>Professional Electrical</h2>
+          <span>What’s Included</span>
+        </div>
+        <div class="services">
+          <div class="service-item">
+            <div class="image">
+              <img src="./images/Professional1.jpg" alt="Cleaning service " />
+            </div>
+            <div class="service-details">
+              <h3>Home Electrical Repair</h3>
+
+              <div class="service-data">
+                <div class="service-description">
+                  <p>
+                    Fix everyday electrical issues in your home – outlets,
+                    switches, lights, and wiring safely and efficiently
+                  </p>
+                </div>
+
+                <div class="price">
+                  <span>$100</span>
+                </div>
+              </div>
+            </div>
+            <div class="btn-wrapper">
+              <button class="book-btn">Book Now</button>
+              <div class="book-btn-bg"></div>
+            </div>
+          </div>
+
+          <div class="service-item middle-service">
+            <div class="image">
+              <img src="./images/Professional5.jpg" alt="Cleaning service  " />
+            </div>
+            <div class="service-details">
+              <h3>Appliance Maintenance & Repair</h3>
+
+              <div class="service-data">
+                <div class="service-description">
+                  <p>
+                    Repair and maintain home appliances – fridges, air
+                    conditioners, fans, heaters, and more for smooth
+                  </p>
+                </div>
+
+                <div class="price">
+                  <span>$20</span>
+                  <img
+                    src="./images/Checked.png"
+                    alt="checked"
+                    class="checked"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="btn-wrapper">
+              <button class="middle-book-btn book-btn">
+                Booking Confirmed
+              </button>
+              <div class="book-btn-bg"></div>
+            </div>
+          </div>
+
+          <div class="service-item">
+            <div class="image">
+              <img src="./images/Professional4.jpg" alt="Cleaning service " />
+            </div>
+            <div class="service-details">
+              <h3>Electrical Installation & Safety Check</h3>
+              <div class="service-data">
+                <div class="service-description">
+                  <p>
+                    Install new connections or panels and inspect your
+                    electrical system to ensure safety and prevent hazards
+                  </p>
+                </div>
+
+                <div class="price">
+                  <span>$70</span>
+                </div>
+              </div>
+            </div>
+            <div class="btn-wrapper">
+              <button class="book-btn">Book Now</button>
+              <div class="book-btn-bg"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fifth  section (discount) -->
+     <section class="discount-section">
+      <div class="container discount-container">
+        <div class="discount-details">
+          <div class="dicount-desc">
+            <button class="discount-btn">Discount</button>
+            <p>Book two or more services and <br> get a discount of up to 20 %</p>
+            <div class="btn-wrapper">
+              <button class="book-btn">Book Now</button>
+              <div class="book-btn-bg"></div>
+            </div>
+          </div>
+        </div>
+        <div class="discount-20">
+            <img src="./images/dots.png" alt="dots">
+            <img src="./images/20discount.png" alt="discount">
+        </div>
+
+        <div class="discount-image">
+          <img src="./images/discount-image.png" alt="discount Image" class="discount-img" >
+        </div>
+        
+        <img src="./images/circles.png" alt="circles" class="circles">
+      </div>
+     </section>
+    <!-- Sixth section (Why choose us) -->
+    <section class="why-choose-us">
+      <div class="container">
+        <header class="header">
+          <h2>Why Choose Us</h2>
+          <span class="header-label">Fixora</span>
+        </header>
+
+        <div class="wc-grid">
+          <div class="wc-card">
+            <div class="wc-icon">
+              <img src="./images/whyChooseUs1.png" alt="chooseIcon1" />
+            </div>
+            <div class="wc-card-inner">
+              <h3>Licensed &amp; Professional Plumbers</h3>
+              <p>
+                Our Skilled Plumbers Are Fully Licensed, Ensuring Reliable And
+                High-Quality Service Every Time.
+              </p>
+            </div>
+          </div>
+
+          <div class="wc-card">
+            <div class="wc-icon">
+              <img src="./images/whyChooseUs2.png" alt="chooseIcon2" />
+            </div>
+            <div class="wc-card-inner">
+              <h3>Transparent Pricing, No Hidden Fees</h3>
+              <p>
+                Know Exactly What You Pay—Fair, Honest Pricing With No Surprises.
+              </p>
+            </div>
+          </div>
+
+          <div class="wc-card">
+            <div class="wc-icon">
+              <img src="./images/whyChooseUs3.png" alt="chooseIcon3" />
+            </div>
+            <div class="wc-card-inner">
+              <h3>Track Your Service In Real Time</h3>
+              <p>
+                Track your service status in real time, ensuring full transparency
+                and reliability.
+              </p>
+            </div>
+          </div>
+          <div class="wc-card">
+            <div class="wc-icon">
+              <img src="./images/whyChooseUs1.png" alt="chooseIcon4" />
+            </div>
+            <div class="wc-card-inner">
+              <h3>Guaranteed Repairs</h3>
+              <p>
+                All Repairs Are Backed By Our Guarantee, Giving You Peace Of Mind
+                And Lasting Results.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./images/top-right-circles.png" alt="top-right-circles" class="top-right-circles">
+      <img src="./images/bottom-left-circles.png" alt="bottom-left-circles" class="bottom-left-circles">
+
+    </section>
+
+    <!-- Seventh secton (how we work) -->
+    <section class="how-we-work-section">
+      <div class="container">
+          <div class="header">
+            <h2>How We Work</h2>
+            <span class="header-label">Fixora</span>
+          </div>
+          <div class="works">
+            <div class="image-side">
+              <img src="./images/howWeWorkImage.png" alt="Worker">
+            </div>
+        
+            <div class="content-side">
+              <div class="step">
+                <span class="icon" ><img src="./images/HowWeWork1.png" alt="HowWeWork1" class="how-we-work-icon"></span>
+                <div>
+                  <h3>Book Your Service</h3>
+                  <p>Fill Out The Quick Form Or Call Us To Request Service</p>
+                </div>
+              </div>
+        
+              <div class="step">
+                <span class="icon" ><img src="./images/HowWeWork2.png" alt="HowWeWork2"  class="how-we-work-icon"></span>
+                <div>
+                  <h3>Inspection & Quote</h3>
+                  <p>We Assess The Issue And Provide A Clear, Transparent Quote</p>
+                </div>
+              </div>
+        
+              <div class="step">
+                <span class="icon"><img src="./images/HowWeWork3.png" alt="HowWeWork3"  class="how-we-work-icon"></span>
+                <div>
+                  <h3>Professional Service</h3>
+                  <p>Our Licensed Plumbers Fix Or Install With Skill And Speed</p>
+                </div>
+              </div>
+        
+              <div class="step">
+                <span class="icon"><img src="./images/HowWeWork4.png" alt="HowWeWork4"  class="how-we-work-icon"></span>
+                <div>
+                  <h3>Satisfaction Guaranteed</h3>
+                  <p>Final Check To Ensure Everything Works Perfectly And You're Happy.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- Eighth section (Testimonial) -->
+    <section class="testimonials">
+      <!-- <div class="upper-bg"> -->
+        <div class="overlay">
+          <img src="./images/upper-layer.png" alt="upper layer">
+        </div>
+      <!-- </div> -->
+      <div class="container testimonials-section">
+        
+        <div class="header">
+          <h2 class="title">What Our Customer Say</h2>
+        <span >Happy Customer</span>
+        </div>
+        <div class="cards">
+          <!-- Card 1 -->
+          <div class="card">
+            <img class="avatar" src="images/testimonialImage.png" alt="testimonialImage" />
+            <h3 class="name">cointnery henry</h3>
+            <p class="role">Nursing Assistant</p>
+            <p class="desc">
+              Aliqua id fugiat nostrud irure ex duis ea quis quis ad et. Sunt qui esse pariatur duis
+              deserunt mollit dolore cillum minim tempor enim.
+            </p>
+            <div class="stars">
+              <img src="./images/Star 1.png" alt="star">
+              <img src="./images/Star 1.png" alt="star">
+              <img src="./images/Star 1.png" alt="star">
+              <img src="./images/Star 1.png" alt="star">
+              <img src="./images/Star 5.png" alt="star">
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+        <div class="card">
+          <img class="avatar" src="images/testimonialImage.png" alt="testimonialImage" />
+          <h3 class="name">cointnery henry</h3>
+          <p class="role">Nursing Assistant</p>
+          <p class="desc">
+            Aliqua id fugiat nostrud irure ex duis ea quis quis ad et. Sunt qui esse pariatur duis
+            deserunt mollit dolore cillum minim tempor enim.
+          </p>
+          <div class="stars">
+            <img src="./images/Star 1.png" alt="star">
+            <img src="./images/Star 1.png" alt="star">
+            <img src="./images/Star 1.png" alt="star">
+            <img src="./images/Star 1.png" alt="star">
+            <img src="./images/Star 5.png" alt="star">
+          </div>
+        </div>
+
+          <!-- Card 3 -->
+        <div class="card">
+          <img class="avatar" src="images/testimonialImage.png" alt="testimonialImage" />
+          <h3 class="name">cointnery henry</h3>
+          <p class="role">Nursing Assistant</p>
+          <p class="desc">
+            Aliqua id fugiat nostrud irure ex duis ea quis quis ad et. Sunt qui esse pariatur duis
+            deserunt mollit dolore cillum minim tempor enim.
+          </p>
+          <div class="stars">
+            <img src="./images/Star 1.png" alt="star">
+            <img src="./images/Star 1.png" alt="star">
+            <img src="./images/Star 1.png" alt="star">
+            <img src="./images/Star 1.png" alt="star">
+            <img src="./images/Star 5.png" alt="star">
+          </div>
+        </div>
+        </div>
+
+        <!-- Dots -->
+        <div class="dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ninth section (Booking Form) -->
+    <section class="booking">
+      <div class="container ">
+        <div class="header">
+          <span class="header-label">Booking Form</span>
+        </div>
+        <div class="booking-details">
+         <div class="inner-booking">
+          <form>
+          
+            <div class="form-group">
+              <label for="full-name">Full name</label>
+              <div class="input-wrapper">
+                <input id="full-name" type="text" placeholder="write your name here" required>
+                <img src="./images/user.png" alt="name" class="form-icon">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <div class="input-wrapper">
+                <input id="phone" type="tel" placeholder="ex: +972597780605" required>
+                <img src="./images/phone.png" alt="phone" class="form-icon">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="address">Address</label>
+              <div class="input-wrapper">
+                <input id="address" type="text" placeholder="Address (City, Street, Details)" required>
+                <img src="./images/address.png" alt="address" class="form-icon">
+              </div>
+            </div>
+          
+            <div class="form-group">
+              <label for="date-time">Date & time</label>
+              <div class="input-wrapper">
+                <input type="text" placeholder="Select Date & Time" onfocus="(this.type='datetime-local')" id="date-time"
+                  required>
+                <img src="./images/date.png" alt="date" class="form-icon">
+                <img src="./images/down.png" alt="arrow" class="select-arrow">
+              </div>
+          
+            </div>
+            <div class="form-select">
+              <label for="service-type-dropdown">Choose Service Type</label>
+              <div class="drop-down" id="service-type-dropdown">
+                <div class="select-btn open">
+                  <span class="btn-text">Service type</span>
+                  <img src="./images/app.png" alt="date" class="form-icon">
+                  <img src="./images/down.png" alt="arrow" class="select-arrow">
+                  
+                </div>
+                <ul class="list-items">
+                  <span class="status">Status</span>
+                  <li class="item">
+                    <span class="checkbox">
+                      <img src="./images/not-checked.png" alt="" class="check-item">
+                    </span>
+                    <span class="item-text">Electrical</span>
+                  </li>
+
+                  <li class="item">
+                    <span class="checkbox">
+                      <img src="./images/not-checked.png" alt="" class="check-item">
+                    </span>
+                    <span class="item-text">Plumbing</span>
+                  </li>
+
+                  <li class="item">
+                    <span class="checkbox">
+                      <img src="./images/not-checked.png" alt="" class="check-item">
+                    </span>
+                    <span class="item-text">Cleaning</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="form-select">
+              <label for="detailed-service-dropdown">Choose Service Type</label>
+              <div class="drop-down" id="detailed-service-dropdown">
+                <div class="select-btn open">
+                  <span class="btn-text">Service type</span>
+                  <img src="./images/app.png" alt="date" class="form-icon">
+                  <img src="./images/down.png" alt="arrow" class="select-arrow">
+              
+                </div>
+                <ul class="list-items">
+                  <span class="status">Status</span>
+                  <li class="item">
+                    <span class="checkbox">
+                      <img src="./images/not-checked.png" alt="" class="check-item">
+                    </span>
+                    <span class="item-text">Home Electrical Repair</span>
+                  </li>
+              
+                  <li class="item">
+                    <span class="checkbox">
+                      <img src="./images/not-checked.png" alt="" class="check-item">
+                    </span>
+                    <span class="item-text">installation, and safety inspections</span>
+                  </li>
+              
+                  <li class="item">
+                    <span class="checkbox">
+                      <img src="./images/not-checked.png" alt="" class="check-item">
+                    </span>
+                    <span class="item-text">Electrical Installation & Safety Check</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          
+            <div class="btn-wrapper">
+              <button type="submit" class="book-btn">Book Now</button>
+              <div class="book-btn-bg"></div>
+            </div>
+          
+          </form>
+         </div>
+        </div>
+       
+      </div>
+    </section>
+
+    <!-- Tenth section (FQA Form) -->
+    <section class="FQA-section">
+      <div class="container">
+        <header class="header">
+          <h2>Quick fire answers</h2>
+          <span class="header-label">FAQ</span>
+        </header>
+        <div class="questions">
+          <div class="question-details">
+            <img src="./images/plus.png" alt="" onclick="toggle(event)">
+            <div class="question">
+              <h3>Do you provide a service guarantee?</h3>
+               <div class="question-answer" style="display: none">
+              <p>Yes! We offer a warranty on our work to ensure quality and customer satisfaction</p>
+            </div>
+            </div>
+          </div>
+          <div class="question-details">
+            <img src="./images/plus.png" alt="" onclick="toggle(event)">
+            <div class="question">
+              <h3>Can I reschedule or cancel my booking?</h3>
+              <div class="question-answer" style="display: none">
+                <p>Yes! We offer a warranty on our work to ensure quality and customer satisfaction</p>
+              </div>
+            </div>
+          
+          </div>
+
+          <div class="question-details">
+            <img src="./images/plus.png" alt="" onclick="toggle(event)">
+            <div class="question">
+              <h3>Do I need to provide cleaning tools or spare parts?</h3>
+              <div class="question-answer" style="display: none">
+                <p>Yes! We offer a warranty on our work to ensure quality and customer satisfaction</p>
+              </div>
+            </div>
+          
+          </div>
+
+          <div class="question-details">
+            <img src="./images/plus.png" alt="" onclick="toggle(event)">
+            <div class="question">
+              <h3>Will I receive a confirmation after booking?</h3>
+              <div class="question-answer" style="display: none">
+                <p>Yes! We offer a warranty on our work to ensure quality and customer satisfaction</p>
+              </div>
+            </div>
+          
+          </div>
+
+        </div>
+
+      </div>
+      <img src="./images/top-right-circles.png" alt="top-right-circles" class="top-right-circles fqa-circle">
+      <img src="./images/bottom-left-circles.png" alt="bottom-left-circles" class="bottom-left-circles fqa-circle">
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container container">
+        <!-- Logo & About -->
+        <div class="footer-about">
+          <div class="logo">
+            <img src="./images/logo.png" alt="Fixora Logo">
+          </div>
+          <p>
+            Our Go-To Platform For Cleaning, Plumbing, And Electrical Maintenance
+            Services With Live Tracking And Special Discounts.
+          </p>
+          <div class="social-icons">
+            <a href="#"><img src="./images/twitter.png" alt="twitter"></a>
+            <a href="#" class="facebook-icon"><img src="./images/facebook.png" alt="facebook"></a>
+            <a href="#"><img src="./images/instagram.png" alt="instagram"></a>
+            <a href="#"><img src="./images/github.png" alt="github"></a>
+          </div>
+        </div>
+    
+        <!-- Company Links -->
+        <div class="footer-links">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Terms Of Service</a></li>
+          </ul>
+        </div>
+    
+        <!-- Services Links -->
+        <div class="footer-links">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">Terms Of Service</a></li>
+          </ul>
+        </div>
+    
+        <!-- Contact Information -->
+        <div class="footer-contact">
+          <h3>Contact Information</h3>
+          <ul>
+            <li>
+              <img src="./images/Location.png" alt="location">
+              <a href="">Gaza – Palestine</a> 
+            </li>
+
+            <li>
+              <img src="./images/Message 35.png" alt="email">
+              <a href="">Fixora2026@Gmail.Com</a>
+            </li>
+            <li>
+              <img src="./images/Calling 1.png" alt="cphone ">
+              <a href="">+972 597780605</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <p>© 2025 All Rights Reserved – Fixora</p>
+      </div>
+    </footer>
+
+<script src="./js/main.js"></script>
+
+  </body>
+</html>
